@@ -40,6 +40,47 @@
 			<script src="assets/js/html5shiv.js"></script>
 			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
+<style>
+.zoom {
+  padding: 3px;
+  background-color: #a7d9af;
+  transition: transform .2s; /* Animation */
+  width: 50px;
+  height: 50px;
+  margin: 0 0;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+}
+
+/* Second */
+h1.second {
+	font-weight: 200;
+}
+
+h1.second span {
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px ;
+	border-radius: 10px;
+	border-bottom: 1px solid mediumseagreen;
+}
+
+h1.second span:after {
+	content: '';
+	position: absolute;
+	bottom: calc(-100% - 1px);
+	margin-left: -10px;
+	display: block;
+	width: 100%; height: 100%;
+	border-radius: 10px;
+	border-top: 1px solid mediumseagreen;
+}
+
+/* ----------------- */
+</style>		
 	</head>
 
 	<body>
@@ -93,9 +134,10 @@
 									<a href="index.html" class="dropdown-toggle">Home</a>
 								</li><!-- /.dropdown -->
 								<li class="dropdown">
-									<a href="./about.html" class="dropdown-toggle">About Us</a>
-								</li><!-- /.dropdown -->
+									<a href="products.html" class="dropdown-toggle" >Products</a>
+								</li>								
 								<li class="dropdown">
+									<a href="./about.html" class="dropdown-toggle">About Us</a>
 								</li><!-- /.dropdown -->
 							</ul><!-- /.nav -->
 
@@ -113,7 +155,8 @@
 
 		<!-- ============================================================= MAIN ============================================================= -->
 
-    <main>
+    <main style="background-color:#f2f2f2">
+
 
       <div class="container inner">
         <div class="row">
@@ -122,7 +165,7 @@
 
             <!-- ============================================================= SECTION – HERO ============================================================= -->
 
-            <section id="hero">
+            <section id="hero" class="text-center">
               <header>
 			  <h1 style='color:grey;'>Our MOTO:</h1>
                 <h2>We work on <b style='color:green;'>"AID THE NEED”</b> principle, serving needy & deserved</h2>
@@ -137,7 +180,68 @@
 
             <section id="who-we-are" class="inner-top-sm">
               <div class="row">
+			  
+<!---->
+	<div class="containers">
+		<div class="row">
+			<div class="col-md-12 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/DSC_3889.JPG" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/DSC_3889.JPG" alt="Nature" style="min-height:400px;  width:100%;">
+				</a>
+			</div>
+			</div>		
+			<div class="col-md-6 col-sm-3">
+			<div class="thumbnail">
+				<a href="assets/images/about/DSC_0027.JPG" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/about/DSC_0027.JPG" alt="Lights" style="min-height:400px;width:100%;">
+				</a>
+			</div>
+			</div>
+			<div class="col-md-6 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/DSC_3958.JPG" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/DSC_3958.JPG" alt="Fjords" style="min-height:400px; width:100%;">
+				</a>
+			</div>
+			</div>
 
+		<div class="col-md-6 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/about/ADSC_0033.JPG" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/about/DSC_0033.JPG" alt="Fjords" style="min-height:400px; width:100%;">
+				</a>
+			</div>
+			</div>
+
+		<div class="col-md-6 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/about/DSC_0034.JPG" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/about/DSC_0034.JPG" alt="Fjords" style="min-height:400px; width:100%;">
+				</a>
+			</div>
+			</div>
+
+		<div class="col-md-6 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/about/DSC_0037.JPG" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/about/DSC_0037.JPG" alt="Fjords" style="min-height:400px; width:100%;">
+				</a>
+			</div>
+			</div>			
+
+		<div class="col-md-6 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/about/DSC_0049.JPG" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/about/DSC_0049.JPG" alt="Fjords" style="min-height:400px; width:100%;">
+				</a>
+			</div>
+			</div>
+
+		</div>
+		</div>
+
+<!---->
                  <div class="col-lg-6 inner-right-xs inner-bottom-sm">
                   <h1 style='color:#5b7aa6;'>Faith</h1>
                   <h3 style='color:#725f8a;'>Fundamental Alignment in Tracking Health.</h3>
@@ -153,14 +257,9 @@
                   <h4 style='color:#725f8a;'>RIDE THE SAC BOAT - Bouquet of Auspiciousness Tagged.</h4>
                 </div><!-- /.col -->
 
-                 <div class="col-lg-6 inner-right-xs inner-bottom-sm">
-                  <h1 style='color:#5b7aa6;'>Team of DOCTORS</h1>
-                  <h4 style='color:#725f8a;'>Disease Ousting Chaste Treasury of Reliability.<br>(Vaidyo Narayano Hari)</h4>
-                </div><!-- /.col -->
-
                 <div class="col-lg-6 inner-right-xs inner-bottom-sm">
                   <h1 style='color:#5b7aa6;'>Contact us</h1>
-									<ul class="contacts">
+									<ul class="contacts" style='color:#725f8a;'>
 										<li><i class="icon-location contact"></i>13, Pampa Mahakavi Road, Shankarapuram, <br>Bengaluru-500019,<br> karnataka </li>
 										<li><i class="icon-mobile contact"></i> +91 89718 82073</li>
 										<li><i class="icon-phone contact"></i> 080-4168 9803</li>
@@ -180,7 +279,7 @@
 
             <!-- ============================================================= SECTION – TEAM ============================================================= -->
 
-            <section id="team" class="light-bg inner-xs inner-left-xs inner-right-xs">
+            <section id="team" class="light-bg inner-xs inner-left-xs inner-right-xs" style="background-color:#b0a9a9">
 
               <h3 class="team-headline sidelines text-center"><span> with the Blessings of</span></h3>
 
@@ -200,9 +299,7 @@
                           </ul><!-- /.social -->
                         </div><!-- /.info -->
                       </div><!-- /.text-overlay -->
-
-                      <img src="assets/images/Sri-Sharadamba-Sringeri.jpg">
-
+                      <img src="assets/images/about/blessing.JPG" style='width:100%; height:130%'>
                     </div><!-- /.member-image -->
 
                     <!---<figcaption class="member-details bordered no-top-border">
@@ -231,14 +328,15 @@
 
 		<!-- ============================================================= FOOTER ============================================================= -->
 
-		<footer class="dark-bg">
+		<footer class="dark-bg" >
 
-			<b><div class="footer-bottom">
-				<div class="container inner">
-					<p class="pull-left">© Shree sharada Ayurvedic clinic</p>
+			<div class="footer-bottom" style="background-color:#ebe8e8">
+				<b><div class="container inner">
+					<p class="pull-left">© Shree sharada Ayurvedic clinic.</p>
 					<ul class="footer-menu pull-right">
 						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
+						<li><a href="./products.html">Products</a></li>
+						<li><a href="./about.html">About Us</a></li>
 					</ul><!-- .footer-menu -->
 				</div><!-- .container -->
 			</div><!-- .footer-bottom --></b>
