@@ -80,7 +80,17 @@ h1.second span:after {
 	border-top: 1px solid mediumseagreen;
 }
 
-/* ----------------- */
+ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+</style>
+</head>
+<body>
+
 </style>		
 	</head>
 
@@ -107,7 +117,7 @@ h1.second span:after {
 
 						<!-- ============================================================= LOGO MOBILE ============================================================= -->
 
-						<a class="navbar-brand" href="index.html"><img src="assets/images/ayurveda-banner-5.jpg" class="logo" style='width:100%; height:130%' border="0" alt="Null"></a>
+						<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="logo" style='width:100%; height:130%' border="0" alt="Null"></a>
 
 						<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 
@@ -122,7 +132,7 @@ h1.second span:after {
 
 							<!-- ============================================================= LOGO ============================================================= -->
 
-							<a class="navbar-brand" href="index.html"><img src="assets/images/ayurveda-banner-5.jpg" class="logo" style='width:70%; height:190%' border="0" alt="Null"></a>
+							<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="logo" style='width:70%; height:190%' border="0" alt="Null"></a>
 
 							<!-- ============================================================= LOGO : END ============================================================= -->
 
@@ -134,6 +144,9 @@ h1.second span:after {
 								<li class="dropdown">
 									<a href="index.html" class="dropdown-toggle" >Home</a>
 								</li><!-- /.dropdown -->
+								<li class="dropdown">
+									<a href="treatments.html" class="dropdown-toggle" >Treatments</a>
+								</li>									
 								<li class="dropdown">
 									<a href="products.html" class="dropdown-toggle" >Products</a>
 								</li>								
@@ -165,11 +178,11 @@ h1.second span:after {
 				<section id="hero">
 					<div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
 
-						<div class="item" style="background-image: url(assets/images/homeImages/s2.jpeg);">
+						<div class="item" style="background-image: url(assets/images/DSC_3889.JPG);background-size: 100% 100%;">
 							<div class="container">
 								<div class="caption vertical-center text-left">
-									<h1 class="fadeInDown-1" style="color:#59392b">Why </br> Ayurveda?</h1>
-									<p class="fadeInDown-2" style="font-weight:bold; color:#59392b">Ayurveda provides compassionate, individualised health care</br>and 100% natural medicines</p>
+									<!-- <h1 class="fadeInDown-1" style="color:#59392b">Why </br> Ayurveda?</h1>
+									<p class="fadeInDown-2" style="font-weight:bold; color:#59392b">Ayurveda provides compassionate, individualised health care</br>and 100% natural medicines</p>-->
 									<!-- <div class="fadeInDown-3">
 										<a href="#" class="btn btn-large">Get started now</a>
 									</div>-->
@@ -178,12 +191,12 @@ h1.second span:after {
 							</div><!-- /.container -->
 						</div><!-- /.item -->
 
-						<div class="item" style="background-image: url(assets/images/homeImages/s11.jpg);">
+						<div class="item" style="background-image: url(assets/images/about/DSC_0034.JPG); background-size: 100% 100%;">
 							<div class="container">
 								<div class="caption vertical-center text-left">
 
-									<h1 class="fadeInRight-1" style="color:#59392b">Why </br> Ayurveda?</h1>
-									<p class="fadeInRight-2" style="font-weight:bold; color:#59392b">Ayurveda is based on the principle that the body is made up of 5 elements – </br>space, air, water, fire and earth.</p>
+									<!--<h1 class="fadeInRight-1" style="color:#59392b">Why </br> Ayurveda?</h1>
+									<p class="fadeInRight-2" style="font-weight:bold; color:#59392b">Ayurveda is based on the principle that the body is made up of 5 elements – </br>space, air, water, fire and earth.</p>-->
 									<!-- <div class="fadeInLeft-3">
 										<a href="#" class="btn btn-large">Get started now</a>
 									</div> /.fadeIn -->
@@ -192,12 +205,26 @@ h1.second span:after {
 							</div><!-- /.container -->
 						</div><!-- /.item -->
 
-						<div class="item" style="background-image: url(assets/images/homeImages/s3.jpg);">
+						<div class="item" style="background-image: url(assets/images/about/DSC_0049.JPG); background-size: 100% 100%;">
 							<div class="container">
 								<div class="caption vertical-center text-left">
 
-									<h1 class="fadeInRight-1" style="color:#59392b"><span>Why Ayurveda?</span></h1>
-									<p class="fadeInRight-2" style="font-weight:bold; color:#59392b">Ayurveda is a pseudoscientific system of medicinewith historical roots <br> in the Indian subcontinent.</p>
+									<!--<h1 class="fadeInRight-1" style="color:#59392b">Why </br> Ayurveda?</h1>
+									<p class="fadeInRight-2" style="font-weight:bold; color:#59392b">Ayurveda is based on the principle that the body is made up of 5 elements – </br>space, air, water, fire and earth.</p>-->
+									<!-- <div class="fadeInLeft-3">
+										<a href="#" class="btn btn-large">Get started now</a>
+									</div> /.fadeIn -->
+
+								</div><!-- /.caption -->
+							</div><!-- /.container -->
+						</div><!-- /.item -->
+
+						<div class="item" style="background-image: url(assets/images/about/DSC_0037.JPG); background-size: 100% 100%;">
+							<div class="container">
+								<div class="caption vertical-center text-left">
+
+									<!--<h1 class="fadeInRight-1" style="color:#59392b"><span>Why Ayurveda?</span></h1>
+									<p class="fadeInRight-2" style="font-weight:bold; color:#59392b">Ayurveda is a pseudoscientific system of medicinewith historical roots <br> in the Indian subcontinent.</p>-->
 
 
 								</div><!-- /.caption -->
@@ -214,238 +241,112 @@ h1.second span:after {
 
 	<section id="product" style="background-color:#f2f2f2">			  						
 					<div class="container inner">
-						<h1 class="second"><span>Ayurveda</span></h1>
+						<h1 class="second"><span>Ayurveda, <h3>A Life Science</h3></span></h1>
 					
 	<!-- -description -->
 	<article class="article">
 	<div class="article__content">
 	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>Ayurveda is a complete health science. It is expanded into 8 specializations about 2000 year ago. Kayathanthra deals in internal medicine, the Balathanthrain obstetrics, gynecology and pediatrics, the Salyathanthra in surgical management, the Salakyathanthra in eye, ear, nose, throat, brain, head & neck, the Vishathanthra in toxicology, the Rasayanathanthra in immunology, geriatrics and rejuvenation and the Vajeekaranathanthra in andrology and sexology.</p>
-	Rishi Charaka –Pl insert Charaka image
-Charaka is often known as the Father of Medicine in India.  His most famous work is the Charaka Samhita.  One of Charaka's most famous quotes was, "Health and disease cannot be predetermined and human life can be prolonged or increased by paying attention to lifestyle."
-Charaka was one of the physicians to introduce concepts of digestion, metabolism and sexual problems to Ayurveda. Charaka stated that the body functions because it contains three doshas: Vata, Pitta and Kapha. The doshas are produced when dhatus (tissues) act upon food eaten. Each body produces a different amount of each dosha for the same quantity of food eaten. This is what makes one body different from another.
-Rishi Sushruta–Pl insert Charaka image
-Sushruta was an ancient Ayurvedic physician and one of the main contributors of Sushruta Samhita.   Sushruta was known as the Father of Plastic Surgery.  The Sushruta Samhita consists of 184 chapters. It lists around 1100 illnesses and 700 medicinal plants.
-Sushruta was the first to introduce diagnostic instruments which were later modified in construction to form the modern endoscope.
-The Sushruta era was known as the Golden Age of Surgery because he took surgery in ancient India to new heights with his work.
+<b style='color:#46523d;font-size:30px;font-family:"Courier New", Courier, monospace;'>
+आयुः। विद्यते अस्मिन् ॥<br>
+<p style="text-align:center;">- सुश्रुताचार्य </p>
+</b>
+<b style='color:#46523d;font-size:30px;font-family:"Courier New", Courier, monospace;'>
+Ayurveda, A Life Science ॥<br>
+<p style="text-align:center;">- Sushrutacharya  </p>
+</b>
 </div>
-	</article>
-	<!-- End of description -->
-
 	<!-- -description -->
 	<article class="article">
-	<h1 class="second"><span>SUPUTHREEYAM<br><h5>(SPECIALTY CLINIC FOR ANTE & POST NATAL CARE)</h5></span></h1>
+	<!--<h2 class="second">WHAT CAUSES DISEASES AS PER AYURVEDA?</span></h2>-->
 	<div class="article__content">
 	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-Suputhreeyam is an initiative, which is a complete health strategy including medicine and advice starting before conception and continues till the child achieves his milestones successfully.
-<img src="assets/images/sup.jpg" style='width:300px; height:5%' alt="Suputhreeyam" class="center">
-<ul>
-  <li>- Suputhreeyam Specialty Clinics focuses primarily on the wellbeing of the young generation. </li>
-  <li>- It is for the first time that such an idea is being put forth to focus more on the preventive rather than a treatment aspect.</li>
-  <li>- With the ambition to create a healthy child it requires the health and wellbeing of its parents. </li>
-  <li>- This involves traditional health practices beginning from marriage.</li>
-</ul>
-<b style='color:Black'>AGE WISE BIFURCATION OF PEDIATRIC TREATMENTS
-6months-5 years:</b>
-<ul>
-<li>- Swarna prashan</li>
-<li>- Abhyangam </li>
-<li>- Special medicated powders-use for bathing purpose</li>
-</ul>
-<b style='color:Black'>5 year-10 years:</b>
-<ul>
-<li>- Dietary changes</li>
-<li>- Krumighna chikitsa</li>
-<li>- Swarna prashan</li>
-<li>- Treatment therapies-better bone growth, improve intelligence</li>
-<li>- Therapies like-matra basti, abhyanagam, annalepam, medhya sneha</li>
-</ul>
-<b style='color:Black'>10-16yrs of age:</b>
-<ul>
-<li>- Swvarna prashan</li>
-<li>- Lifestyle-physical activity ,sports </li>
-<li>- Yoga advice</li>
-<li>- Krumighna chikitsa -deworming</li>
-<li>- Netra raksha-eye care</li>
-</ul>
-<b style='color:Black'>Treatment therapies:</b>
-<ul>
-<li>- Abhyanagam, navara kizhi, medhya sanskaar, netra tharpanam, dhara, matra basti etc.</li>
-<li>- Counselling for adolescence.</li>
-</ul>
+<br><b style='color:#46523d;font-size:30px;font-family:"Courier New", Courier, monospace;'>
+<br>चरकः सुश्रुताश्चैव वाग्भटस्य तथात्परः। मुख्याश्च संहिता वाच्यास्तित एव युगे युगे <br>
+<p style="text-align:right;">- हरीता </p>
+
 </b>
 </div>
-	</article>
-	<!-- End of description -->	
-	
+	</article>&nbsp;
+	<div class="containers">
+		<div class="carousel">
+			<div class="col-md-4 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/charaka.jpg" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/charaka.jpg" alt="Lights" style="min-height:350px;width:100%;">
+				<p>Maharshi Charaka</p>
+				</a>
+			</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/sushrutha.jpg" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/sushrutha.jpg" alt="Nature" style="height:350px;width:100%;">
+				<p>Maharshi Sushrutha</p>
+				</a>
+			</div>
+			</div>
+			<div class="col-md-4 col-sm-4">
+			<div class="thumbnail">
+				<a href="assets/images/Vagbhata.jpg" target="_blank">
+				<img class="img-responsive zoom" src="assets/images/Vagbhata.jpg" alt="Nature" style="height:350px;width:100%;">
+				<p>Maharshi Vagbhata</p>
+				</a>
+			</div>
+			</div>
+		</div>
+		</div>
 	<!-- -description -->
-	<br><article class="article">
-	<h2 class="second"><span>PRE-PREGNANCY</span></h2>
+	<article class="article">
+	<h2 class="second"></span></h2>
 	<div class="article__content">
 	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-<ul>
-<li>- Body detoxification-</li>
-<li>- Life style changes</li>
-<li>- Dietary changes</li>
-<li>- Yoga</li>
-<li>- Medicines</li>
-<li>- Pre-conception counselling</li>
-<li>- Panchakarma therapies- shodhan therapies</li>
-<li>- PREGNANCY: GARBHINI PARICHARYA</li>
-<li>- Life style changes</li>
-<li>- Dietary changes</li>
-<li>- Yoga</li>
-<li>- Medicines</li>
-<li>- Pregnancy counselling</li>
-<li>- Local massages-head ,leg, pain areas etc</li>
-<li>- Relaxation therapies- sheerordhara etc</li>
-<li>- LEG MASSAGE SPECIAL AYURVEDA OIL</li>
-<li>- HEAD MASSAGE SPECIAL AYURVEDA OIL</li>
-<li>- FOOT MASSAGE SPECIAL AYURVEDA OIL</li>
-<li>- BACK MASSAGE SPECIAL AYURVEDA OIL</li>
-<li>- FACIAL</li>
-</ul></b>
-
-	<h2 class="second"><span>POST PREGNANCY – SOOTIKA PARICHARYA</span></h2>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-The main focus is to calm the vata which aggravates during the whole procedure of pregnancy and delivery.
-Adding to that sleep deprivation and fatigue that comes from feeding and nourishing a newborn
-There is laxity in muscles which generates during the process of delivery.
-<ul>
-<li>- Life style changes</li>
-<li>- Dietary changes</li>
-<li>- Yoga and meditation</li>
-<li>- Medicines</li>
-<li>- Counseling</li>
-<li>- Massages</li>
-<li>- Relaxation therapies-sheerodhara etc</li>
+<b style='color:#46523d;font-family:Courier New;font-size:22px;'>
+It is a complete health science. It is expanded into Eight specializations about 2000 year ago.<br> Shree Sharada Ayurvedic Clinic, aims at incorporating innovative and wholesome therapies to treat the ailments and rejuvenate the body and mind for an healthy living. 
 </b>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>- MASSAGES
-<ul>
-<li>- HERBAL WATER BATH</li>
-<li>- DIET AND LIFESTYLE</li>
-
-</ul></b>
-</b>	
 </div>
-	</article>
+	</article>&nbsp;
 
 	<article class="article">
-	<h1 class="second"><span>SUCHETHAS<br><h5> (SPECIALTY CLINIC FOR STRESS AND STRAIN)</h5></span></h1>
+	<h2 class="second">WHO IS THE GREATEST HEALER?</h2>
 	<div class="article__content">
 	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-An integrated approach as solution which has been successfully practiced over a century
-<ul>
-<li>- The changes in life style influence not only our body but also the mind. </li>
-<li>- This culminates into mental distress. Stress and strain may lead to many physical as well as mental disorders. </li>
-<li>- This ultimately hampers the wellbeing of the family and society. </li>
-<li>- A tablet or a decoction may not be a remedy in such situations.</li>
-<li>- A comprehensive health strategy is essential for such ailments. </li>
-</ul>	
-
-<img src="assets/images/man.jpg" style='width:300px; height:5%' alt="Suputhreeyam" class="center">
-<ol>
-<li> Stress Relieves</li>
-<li> muscle pains and aches, </li>
-<li> swelling on the feet,</li>
-<li> headache, sleep disturbance,</li>
-<li> constipation and </li>
-<li> Discomforts of jetlag</li>
-<li> Sleep Disturbance</li>
-<li> Migraine Headache</li>
-<li> Hair Problems</li>
+<b style='color:#46523d;font-family:Courier New;font-size:22px;'>
+Undoubtedly, the body is the greatest healer. No medicine or treatment can heal the body.
+If given time and space, our body knows how to heal and cure itself. Medicines and
+procedures only assist in creating the right environment for the body to repair itself.
 </b>
-</ol>
 </div>
-	</article>
+	</article>&nbsp;
 
-<article class="article">
-<h1 class="second"><span>SUNAYANAM<br><h5>(SPECIALTY CLINIC FOR EYE DISORDERS)</h5></span></h1>
-<div class="article__content">
+	<article class="article">
+	<h2 class="second">WHAT CAUSES DISEASES AS PER AYURVEDA?</h2>
+	<div class="article__content">
 	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-An out-patient wing for ‘eye’ with renowned specialist in the field of eye (Netra Ayurveda) examines patients regularly in the "netraroga panel" once in a month.<br>
-<img src="assets/images/eye.jpg" style='width:300px; height:5%' alt="Suputhreeyam" class="center">
+<b style='color:#46523d;font-family:Courier New;font-size:22px;'>
 <ul>
-<li>- An ophthalmologist and all modern diagnostic tools are employed to obtain diagnosis with greater precision.</li>
-<li>- Special formulations and treatment procedures are designed with the vast experience of traditional physicians.</li>
-<li>- dark circles.</li>
-<li>- crow's feet. </li>
-<li>- Visual improvement and eye diseases.</li>
-<li>- Anjanam for reducing puffiness of the eyes.</li>
+<li>- Diseases are caused due to the toxin build-up in the body due to bad lifestyle and unwholesome food habits.</li>
+<li>- The impact of toxins become stronger over a period of time and manifests as a disease. If there is a genetic.</li>
+<li>- Predisposition then the impact of the toxin build-up becomes even more severe.</li>
 </ul>
 </b>
-</p>
 </div>
-	</article>
+	</article>&nbsp;
 
-<article class="article">
-<h1 class="second"><span>SUJEEVANAM<br><h5>DIABETES AND LIFE STYLE DISORDERS</h5></span></h1>
-<div class="article__content">
+	<article class="article">
+	<h2 class="second">WHAT IS THE TREATMENT METHODOLOGY IN AYURVEDA?</h2>
+	<div class="article__content">
 	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-We blend traditional wisdom and modern knowledge in patient care has been very innovative in developing treatment protocols and novel formulations in Ayurvedic arena for more than a century. 
-We take up this responsibility to eliminate Diabetic complications with a social commitment to provide a disease free society, which itself is the motto of the institution.<br>
+<b style='color:#46523d;font-family:Courier New;font-size:22px;'>
 <ul>
-<li>- Obesity</li>
-<li>- Stress Management</li>
-<li>- Sinusitis and Migraine</li>
-<li>- Neurological, Neuromuscular disorder</li>
-<li>- Skin disorder –Psoriasis</li>
-<li>- Tricological (hair) problems</li>
-<li>- Paralysis</li>
-<li>- Gastrointestinal disorders – Acidity</li>
-<li>- Health and Diet Counselling</li>
-<li>- Cough, Cold, Fever</li>
+<li>- During Ayurvedic treatment, the primary focus is to eliminate the toxins through the various orifices of the body.</li>
+<li>- The elimination process is given a lot of importance in Kerala Ayurveda. Once that is done, generally an</li>
+<li>- Improvement in symptoms is felt. In the second stage medicines are prescribed to help in building up the</li>
+<li>- Immunity power of the body. Finally Ayurveda insists on a wholesome lifestyle which will prevent a recurrence of the disease.</li>
 </ul>
 </b>
-</p>
 </div>
-	</article>
-
-<article class="article">
-<h1 class="second"><span>SUSHRUTHAM</span></h1>
-<div class="article__content">
-	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-We blend traditional wisdom and modern knowledge in patient care has been very innovative in developing treatment protocols and novel formulations in Ayurvedic arena for more than a century. 
-We take up this responsibility to eliminate Diabetic complications with a social commitment to provide a disease free society, which itself is the motto of the institution.<br>
-<ul>
-<li>- PREVENTIVE AND CURATIVE METHODS IN PANCHAKARMA, KALAUKAVACHARANA, KSHARAKARMA AND AGNIKARMA</li>
-<li>- VATA RELATED DISORDERS LIKE SANDIVATA, AMAVATA, KATISHOOLA</li>
-<li>- DUSTAVRANA – NON-HELING ULCERS LIKE VARICOSE ULCERS</li>
-<li>- MANAGEMENT OF ANORECTAL DISEASES-PILES</li>
-<li>- MUSCULAR PAIN</li>
-<li>- MUSCULO-SKELETAL DISORDERS</li>
-<li>- NEUROLOGICAL DYSFUNCTION</li>
-<li>- ARITHRITIS AND RHEUMATISM</li>
-<li>- LOW BACK PAIN</li>
-<li>- SHOULDER JOINT PAIN</li>
-<li>- HYPERTENSION</li>
-<li>- ASTHAMA</li>
-<li>- OBESITY</li>
-<li>- OSTEOORITHRITIS</li>
-<li>- CERVICAL SPONDYLOSIS</li>
-</ul>
-</b>
-</p>
-</div>
-	</article>
-
-<article class="article">
-<h1 class="second"><span>SUSHRUTHAM</span></h1>
-<div class="article__content">
-	<p>
-<b style='color:#46523d;font-family:"Courier New", Courier, monospace;'>
-The Keraleeya Ayurveda Samajam, prepares over 300 traditional formulations in Ayurveda based on the great texts of Ayurveda. About 100 rare preparations of medicines developed by great experts of Samajam based on traditional Ayurveda prepared in Samajam for effective cure. All levels and details of production of the medicine are strictly based on the age old sacred knowledge of Ayurveda. Samajam medicines are always in full, strictly conforming to its composition. Stringent quality control effectively executed at every stage of the preparation, right from procurement of raw materials to its packing gives Samajam medicines its value. The quality, strength and effectiveness of the Ayurvedic preparations of Samajam is unquestionably unparalleled. All classical Ayurvedic are manufactured and made available to the public, as per their need.
-</b>
-</p>
-</div>
-	</article>
-
+	</article>&nbsp;	
 			<!-- ============================================================= SECTION – PRODUCT1 : END ============================================================= -->
 
 
@@ -456,7 +357,6 @@ The Keraleeya Ayurveda Samajam, prepares over 300 traditional formulations in Ay
 		<!-- ============================================================= SECTION – PRODUCT2 : END ============================================================= -->
 
 		<!-- ============================================================= FOOTER ============================================================= -->
-
 		<footer class="dark-bg" >
 
 			<div class="footer-bottom" style="background-color:#ebe8e8">
@@ -464,6 +364,7 @@ The Keraleeya Ayurveda Samajam, prepares over 300 traditional formulations in Ay
 					<p class="pull-left">© Shree sharada Ayurvedic clinic.</p>
 					<ul class="footer-menu pull-right">
 						<li><a href="index.html">Home</a></li>
+						<li><a href="./treatments.html">Treatments</a></li>
 						<li><a href="./products.html">Products</a></li>
 						<li><a href="./about.html">About Us</a></li>
 					</ul><!-- .footer-menu -->
